@@ -1,0 +1,105 @@
+{
+  "id": "b15a57da-6736-4233-9cc7-04535cbf03fb",
+  "version": "2.0",
+  "name": "DevOps_Project_Test",
+  "url": "https://karol-ununitable-degenerately.ngrok-free.dev",
+  "tests": [{
+    "id": "8a8cfc90-8e43-405b-92e7-8957956b607f",
+    "name": "ui_test",
+    "commands": [{
+      "id": "96ea9277-dae6-4eda-a5eb-9fde66f04250",
+      "comment": "",
+      "command": "open",
+      "target": "/Shirel_Miryam_Project/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfa38444-954f-4b7d-899c-c1c3c9c4f9de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a777efa-bf0f-4a5b-9ff3-6fdd46c0e148",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3205690f-8f73-422b-8fde-081e21c88233",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Hello DevOps"
+    }, {
+      "id": "eb52461d-9743-451c-8632-3d804a37dcb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send Greeting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "650269c6-e6f2-40c5-b9c6-5d060cb56eb1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "DevOps Final Project",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d39c9cd9-cf3c-4533-9754-1670ce54586d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Hello, Hello DevOps!')]", "xpath:innerText"]
+      ],
+      "value": "Hello, Hello DevOps!"
+    }, {
+      "id": "b0d942e0-4e66-46e0-9956-8cb429f9011b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea748a7a-9d54-4869-b742-8ba253c7acaf",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Go to HIT Website",
+      "targets": [],
+      "value": "Go to HIT Website"
+    }]
+  }],
+  "suites": [{
+    "id": "3ec0a2e7-ebb1-4184-913d-24b52747b16c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8a8cfc90-8e43-405b-92e7-8957956b607f"]
+  }],
+  "urls": ["https://karol-ununitable-degenerately.ngrok-free.dev/"],
+  "plugins": []
+}
