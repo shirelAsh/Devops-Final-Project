@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <h1>DevOps Project - HIT</h1>
-        <h3>Submitted by: [Shirel Ashtamker] & [Miriam Ben David]</h3>
+        <h3>Submitted by: Shirel Ashtamker & Miriam Ben David</h3>
 
         <form action="index.jsp" method="get">
             <label for="username">Enter your name:</label><br><br>
