@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>DevOps Project - HIT - 2026</h1>
+        <h1>DevOps Project - HIT - 2026 </h1>
         <h3>Submitted by: Shirel Ashtamker & Miriam Ben David</h3>
 
         <form action="index.jsp" method="get">
@@ -31,7 +31,7 @@
         <hr>
 
         <%
-            // Java Code Area
+            // Java Code Area - test
             String name = request.getParameter("username");
             if (name != null && !name.isEmpty()) {
         %>
